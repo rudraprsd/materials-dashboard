@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.App {
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.filters input {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
