@@ -23,7 +23,7 @@ function App() {
         }
       }
 
-      const response = await axios.get(`http://your-server-ip:5000/api/materials?${query}`);
+      const response = await axios.get(`http://158.144.59.113:5000/api/materials?${query}`);
       setMaterials(response.data);
     };
 
